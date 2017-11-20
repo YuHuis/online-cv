@@ -1,3 +1,9 @@
 - language:
-  中文 ( Native)
-  英文 ( TOEIC_610)
+  idiom: English
+  level: Native
+- language:
+  idiom: French
+  level: Professional
+- language:
+  idiom: Spanish
+  level: Professional

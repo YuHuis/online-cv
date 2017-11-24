@@ -1,25 +1,33 @@
-{% if site.data.projects %}
 <section class="section projects-section">
-
-  <h2 class="section-title"><i class="fa fa-archive"></i>專案經驗</h2>
-
-  {% for intro in site.data.projects %}
-  <div class="intro">
-      <p>{{ intro.description }}</p>
-  </div><!--//intro-->
-  {% endfor%}
-
-  {% for project in site.data.projects %}
-    <div class="item">
-
-      <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-
-    </div><!--//item-->
-  {% endfor %}
-
-</section><!--//section-->
-{% endif %}
+                <h2 class="section-title"><i class="fa fa-archive"></i>專案經驗</h2>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title"商業智慧應用於圖資館讀者滿意度管理與實現</h3>
+                            <div class="time">2016.7 - 2016.2/</div>
+                        </div><!--//upper-row-->
+                        <div class="company">教育部特色大學計畫</div>
+                    </div><!--//meta-->
+                    <div class="details">    
+                      <p>1. 研究目的</p>  
+                      <p>探討使用者對於VR的體驗程度，並且透過視覺疲勞儀器量測數值，最後使用SPSS的統計方法統整數據，可以客觀的得出VR對於「眼睛」的視覺疲勞程度影響，想知道更多歡迎聯絡我，找我聊聊!</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+            
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">創新創業DNA升級營</h3>
+                            <div class="time">2015.1</div>
+                        </div><!--//upper-row-->
+                        <div class="company">中央大學</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>1. 角色定位</p>
+                        <p>我擔任網頁前端設計和內容行銷的工作。網頁部分，使用HTML5和jQuery製作和特效顯示；行銷部分，實際探訪九鳥陶燒將故事用「影片」的方式宣傳，使用Adobe Premiere剪輯和配樂，<a href="https://www.youtube.com/channel/UCpKg1jM_EicEleqrtTAXGBg">詳細可以觀看我的Youtube</a></p>
+                        <p>2. 團隊合作</p>                      
+                        <p>此專案成員由台東大學和雲林科技大學跨系合作，團隊成員也來自不同國家，有越南、馬來西亞和台灣，透過夥伴們3個月的努力，將此成果送至<a href="https://innoserve.tca.org.tw/award.aspx">第21屆資訊應用服務創新競賽</a>獲得全國產學合作組第三名。</p>  
+                        
+                    </div><!--//details-->
+                </div><!--//item-->
+            </section><!--//section-->
